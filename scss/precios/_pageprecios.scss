@@ -1,0 +1,35 @@
+#body__precios{
+    height: 250vh;
+    overflow-x: hidden;
+    background: no-repeat;
+    background-color: $background-principal;
+}
+#main__precios{
+    height: 220vh;
+    overflow-x: hidden;
+    background: no-repeat;
+    background-color:$background-principal;
+
+    .table-dark{
+        border: solid 5px black;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: rgb(66, 65, 65);
+    }
+    .lista{
+        padding-top: 10px;
+        border: solid 5px;
+        transform: translateX(-29px);
+    }
+ul{
+    div{
+        li{
+                list-style-type: none;
+                text-decoration: none;
+                color:$color-font;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,26 @@
+header{
+    div{
+        div{
+         a{
+           img{
+            margin: 10px;
+            transform:translateX(100px);
+           }
+         }   
+        }
+}
+    nav{color: $color-font;
+        font-size: $tamano-font +0.3;
+        font-family:$style-font;
+        font-weight: $negrita;
+    }
+        div{
+            ul{
+                li{ 
+                    a{
+                        color: $color-font !important;
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,274 @@
+/* DESKTOP FIRST  */
+@media (max-width: 1400px){
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+  width: 5rem;
+  height: 5rem;
+}
+}
+@media (max-width: 992px) {
+  .navbar > .container-fluid {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline; 
+  font-size: 1.2rem;
+  }
+  .nav-link {
+    background-color: transparent;
+    font-weight: bold; } }
+
+@media (max-width: 768px) {
+  #copy {
+    font-size: 1.2rem !important; }
+  .navbar > .container-fluid {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline; }
+  .nav-link {
+    background-color: #868783;
+    font-weight: bold; } }
+
+@media (max-width: 576px) {
+  #copy2 {
+    display: none; }
+  #copy {
+    display: flex;
+    align-items: center; }
+  header div div a img {
+      margin: 10px;
+      transform: translateX(-15px); }
+     }
+
+@media (max-width: 575px) {
+  #nuestrologo {
+    display: none; } }
+
+/* MOBILE FIRST */
+@media (min-width: 320px) {
+  #formulario{padding-top: 50px;}
+  #acordion{
+    padding-top: 100px;
+  }
+  #elrecuadro{padding-top: 50px;}
+  #telefonos {
+    display: flex;
+    justify-content: center; 
+    border:solid 0px !important;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  #conocenosp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.5rem; }
+  #imag1 {
+    display: none; }
+  #imag2 {
+    height: 150px;
+    width: 150px; }
+  #imag3 {
+    height: 150px;
+    width: 150px; }
+  #imag4 {
+    height: 150px;
+    width: 150px; }
+  #linea1 {
+    display: flex;
+    justify-content: flex-start; }
+  #linea2 {
+    display: flex;
+    justify-content: flex-start; }
+  #body__burguer {
+    height: 480vh; }
+  #main__burguer {
+    height: 455vh; }
+  .parrafo__burguer {
+    font-size: 1rem;
+  text-align: center; }
+  #burguerh1 {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 2.2rem;
+   }
+  #burguer2h1{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  #main__sucursales {
+    height: 260vh; }
+  #body__sucursales {
+    height: 285vh; }
+  #elrecuadro {
+    display: none; }
+  .textocontacto {
+    font-size: 1rem !important; }
+    #carouselExample{
+      display: none;
+    }
+    #index1{display: block;
+    }
+    .img-fluid{
+      padding-top:20px ;
+    }
+  #body_co{height:600vh;}
+  #main_co{height:570vh;}
+  div#main_co.row{
+    padding-top: 100px;
+  }
+  .table-dark{
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+  #body__precios{height: 300vh;}
+  #main__precios{height: 270vh;}
+    
+  }
+
+@media (min-width: 425px) {
+  #telefonos {
+    display: flex;
+    justify-content: center; }
+  #conocenosp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.5rem; }
+  #imag2 {
+    height: 150px;
+    width: 150px; }
+  #imag3 {
+    height: 150px;
+    width: 150px; }
+  #imag4 {
+    height: 150px;
+    width: 150px; }
+  #linea1 {
+    display: flex;
+    justify-content: flex-start; }
+  #linea2 {
+    display: flex;
+    justify-content: flex-start; }
+  #body__burguer {
+    height: 500vh; }
+  #main__burguer {
+    height: 475vh; }
+  .parrafo__burguer {
+    font-size: 0.9rem; } 
+  }
+
+@media (min-width: 576px) {
+  #telefonos {
+    display: none; }
+  #conocenosp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1rem; }
+  #imag1 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start; }
+  .parrafo__burguer {
+    font-size: 0.8rem; }
+  #body__burguer {
+    height: 205vh; }
+  #main__burguer {
+    height: 175vh; }
+  #burguerh1 {
+    padding-top: 100px; }
+  #burguer2h1 {
+    padding-top: 50px; }
+  h2 {
+    font-size: 1rem !important; }
+  .textocontacto {
+    font-size: 1.2rem !important;
+    margin: 10px; } 
+    .display-6 {font-size: calc(1.3rem + .6vw)!important;
+    }
+    #body__precios{height: 250vh;}
+  #main__precios{height: 220vh;}
+  }
+
+@media (min-width: 768px) {
+  #telefonos {
+    display: none; }
+  #conocenosp {
+    font-size: 1.2rem; }
+  #imag1 {
+    height: 250px;
+    width: 250px;
+    margin: 10px; }
+  #imag2 {
+    height: 250px;
+    width: 250px; }
+  #imag3 {
+    height: 250px;
+    width: 250px;
+    margin: 10px; }
+  #imag4 {
+    height: 250px;
+    width: 250px; }
+  h2 {
+    font-size: 1.5rem !important; }
+  #recuadro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  #recuadro1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  #elrecuadro {
+    display: inline; } 
+  #body_co{height:300vh;}
+  #main_co{height:270vh;}
+}
+
+@media (min-width: 992px) {
+  #telefonos {
+    display: none; }
+  .parrafo__burguer {
+    font-size: 1rem; }
+  #burguerh1 {
+    padding-top: 25px; } 
+  #carouselExample{
+      display: block;
+    }
+  #index1{display: none;
+    }
+  }
+
+@media (min-width: 1200px) {
+  #telefonos {
+    display: none; }
+  .parrafo__burguer {
+    font-size: 1.2rem; } 
+  #burguer2h1{
+    padding-top: 50px;
+  }
+  .display-6{
+    font-size: 2.5rem!important;
+  }  
+  #body_co{height:250vh;}
+  #main_co{height:220vh;} 
+
+}
+
+@media (min-width: 1400px) {
+  #telefonos {
+    display: none; }
+  #main__sucursales {
+    height: 160vh; }
+  #body__sucursales {
+    height: 185vh; } 
+  #body__burguer {
+    height: 250vh; }
+  #main__burguer {
+    height: 220vh; }
+  }
+  
+

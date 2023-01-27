@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body{
+    height: 170vh;
+    overflow-x:hidden;
+    background: no-repeat;
+    background-color: $background-principal!important;
+}
+    #header{height: 15vh;
+    background: no-repeat;
+    }
+    
+    #main{height: 140vh;
+    background: no-repeat;
+    overflow-x: hidden;
+    }
+    
+    #footer{height: 15vh; 
+    color: $color-font;
+    font-size: $tamano-font +1;
+    font-family:$style-font;
+    background-repeat: no-repeat;  
+    }
+    
+    ul li{
+        transition: all 1s;
+    
+    &:hover{
+        background-color: rgb(61, 61, 61);
+    }
+    }
+
+    .lista1{
+        padding-top: 10px;
+        transition: all 1s;
+    
+    
+    &:hover{
+        color: white;
+        transform: scale(0.5);
+        }
+    }
+    .lista:hover{
+    color: white;
+    transform: scale(0.5);
+    }

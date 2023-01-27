@@ -1,0 +1,21 @@
+#body__sucursales{
+        height: 190vh;
+        overflow-x:hidden;
+        background: no-repeat;
+        background-color: $background-principal!important;
+    }
+#main__sucursales{
+    height: 160vh;
+    overflow-x:hidden;
+    background: no-repeat;
+    background-color: $background-principal!important;
+    div{border: solid 5px $color-font;
+        ul{
+            li{
+                list-style-type: none;
+                text-decoration: none;
+                color:$color-font;
+            }
+        }
+}
+}

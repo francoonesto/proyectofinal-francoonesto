@@ -1,0 +1,13 @@
+
+main{.accordion{--bs-accordion-bg:none;
+    --bs-accordion-border-color:none;
+}
+    .accordion-button  {font-size: 1.5rem;
+font-weight: bold;
+}
+.accordion-button:not(.collapsed) {color: orange;
+background-color:rgb(255, 85, 85) ;
+box-shadow:none}.accordion-body{font-size: 1rem;
+    font-weight: bold; }
+}
+                      

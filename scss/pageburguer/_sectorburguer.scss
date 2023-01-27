@@ -1,0 +1,21 @@
+#body__burguer {
+    height: 165vh;
+    overflow-x: hidden;
+    background: no-repeat;
+    background-color:$background-principal }
+#main__burguer {
+        height: 135vh;
+        background: no-repeat;
+        overflow-x: hidden; }
+section{
+    div{
+        img{
+            .img__propiedades{
+                height: 250px;
+                width: 280px;
+                padding-top: 10px;
+                margin: 5px;
+                }
+        }
+    }
+}
