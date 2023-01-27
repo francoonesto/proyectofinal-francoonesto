@@ -44,6 +44,9 @@
 
 /* MOBILE FIRST */
 @media (min-width: 320px) {
+  #preciotelefono{display:none;}
+  #preciotelefono1{display:none;}
+  #preciotelefono2{display:none;}
   #formulario{padding-top: 50px;}
   #acordion{
     padding-top: 100px;
@@ -160,6 +163,10 @@
   }
 
 @media (min-width: 576px) {
+  #preciotelefonoOriginal{display:none;}
+  #preciotelefono{display:block;}
+  #preciotelefono1{display:block;}
+  #preciotelefono2{display:block;}
   #telefonos {
     display: none; }
   #conocenosp {
