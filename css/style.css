@@ -177,6 +177,9 @@ section div img .img__propiedades {
 
 /* MOBILE FIRST */
 @media (min-width: 320px) {
+  #preciotelefono{display:none;}
+  #preciotelefono1{display:none;}
+  #preciotelefono2{display:none;}
   #formulario {
     padding-top: 50px; }
   #acordion {
@@ -287,6 +290,10 @@ section div img .img__propiedades {
     font-size: 0.9rem; } }
 
 @media (min-width: 576px) {
+  #preciotelefonoOriginal{display:none;}
+  #preciotelefono{display:block;}
+  #preciotelefono1{display:block;}
+  #preciotelefono2{display:block;}
   #telefonos {
     display: none; }
   #conocenosp {
