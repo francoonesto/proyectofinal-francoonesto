@@ -116,8 +116,8 @@
     .img-fluid{
       padding-top:20px ;
     }
-  #body_co{height:600vh;}
-  #main_co{height:570vh;}
+  #body_co{height:900vh;}
+  #main_co{height:870vh;}
   div#main_co.row{
     padding-top: 100px;
   }
@@ -182,9 +182,9 @@
   .parrafo__burguer {
     font-size: 0.8rem; }
   #body__burguer {
-    height: 205vh; }
+    height: 250vh; }
   #main__burguer {
-    height: 175vh; }
+    height: 220vh; }
   #burguerh1 {
     padding-top: 100px; }
   #burguer2h1 {
@@ -196,8 +196,8 @@
     margin: 10px; } 
     .display-6 {font-size: calc(1.3rem + .6vw)!important;
     }
-    #body__precios{height: 250vh;}
-  #main__precios{height: 220vh;}
+    #body__precios{height: 290vh;}
+  #main__precios{height: 260vh;}
   }
 
 @media (min-width: 768px) {
@@ -231,8 +231,8 @@
     flex-wrap: wrap; }
   #elrecuadro {
     display: inline; } 
-  #body_co{height:300vh;}
-  #main_co{height:270vh;}
+  #body_co{height:500vh;}
+  #main_co{height:470vh;}
 }
 
 @media (min-width: 992px) {
@@ -260,8 +260,12 @@
   .display-6{
     font-size: 2.5rem!important;
   }  
-  #body_co{height:250vh;}
-  #main_co{height:220vh;} 
+  #body_co{height:370vh;}
+  #main_co{height:340vh;} 
+  #body__burguer {
+    height: 280vh; }
+  #main__burguer {
+    height: 250vh; }
 
 }
 
@@ -272,10 +276,6 @@
     height: 160vh; }
   #body__sucursales {
     height: 185vh; } 
-  #body__burguer {
-    height: 250vh; }
-  #main__burguer {
-    height: 220vh; }
   }
   
 
